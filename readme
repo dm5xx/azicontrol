@@ -1,0 +1,6 @@
+0 --> "npm update" (läd alle dependencies)
+
+
+1 cmder fenster --> "grunt server" (offen lassen, damit der server läuft)
+
+2 cmder fenster --> "grunt" (startet den "watch task", compiliert SCSS zu CSS)

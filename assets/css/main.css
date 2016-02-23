@@ -1,0 +1,113 @@
+/* line 4, F:/portable/imageRotator/assets/scss/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+/* line 13, F:/portable/imageRotator/assets/scss/main.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 16, F:/portable/imageRotator/assets/scss/main.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 2, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+.rotator {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* line 18, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+.rotator__background, .rotator__current, .rotator__target {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 28, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+.rotator__background {
+  background: transparent url(../img/azi.png) center center no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  left: 1px;
+  top: -2px;
+}
+
+/* line 36, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+.rotator__current {
+  background: transparent url(../img/compass_rose_line.png) center center no-repeat;
+  background-size: cover;
+  zoom: 1;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  transition: all 1s linear;
+}
+
+/* line 44, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+.rotator__target {
+  background: transparent url(../img/compass_rose_line_green.png) center center no-repeat;
+  background-size: cover;
+  zoom: 1;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+/* line 51, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+.rotator__currentDeg, .rotator__targetDeg {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  top: 50%;
+  margin-top: -60px;
+  left: 50%;
+  margin-left: -60px;
+}
+
+/* line 65, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+.rotator__currentDeg {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+/* line 70, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+.rotator__targetDeg {
+  background-color: #7d1212;
+  margin-top: 0;
+  padding-top: 4px;
+  line-height: 24px;
+  height: 90px;
+}
+
+/* line 76, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+.rotator__targetDeg__input {
+  width: 50px;
+  text-align: center;
+}
+
+/* line 24, F:/portable/imageRotator/assets/scss/main.scss */
+body, html {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 30, F:/portable/imageRotator/assets/scss/main.scss */
+.pageWrapper {
+  max-width: 1280px;
+  padding: 40px;
+  margin: 0 auto;
+}
