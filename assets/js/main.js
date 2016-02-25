@@ -5,11 +5,11 @@ $(document).ready(function(){
         // layers
         var $currentPosition = $('.js-currentPosition', $domNode).first();
         var $targetPosition  = $('.js-targetPosition', $domNode).first();
-        
+
         // info values
         var $current         = $('.js-current', $domNode).first();
         var $target          = $('.js-target', $domNode).first();
-        
+
         // buttons
         var $set             = $('.js-set', $domNode).first();
         var $rand            = $('.js-rand', $domNode).first();

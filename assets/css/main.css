@@ -1,4 +1,4 @@
-/* line 4, F:/portable/imageRotator/assets/scss/main.scss */
+/* line 4, H:/portable/azicontrol/assets/scss/main.scss */
 * {
   margin: 0;
   padding: 0;
@@ -7,17 +7,17 @@
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
-/* line 13, F:/portable/imageRotator/assets/scss/main.scss */
+/* line 13, H:/portable/azicontrol/assets/scss/main.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 16, F:/portable/imageRotator/assets/scss/main.scss */
+/* line 16, H:/portable/azicontrol/assets/scss/main.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 2, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+/* line 2, H:/portable/azicontrol/assets/scss/m-imageRotator.scss */
 .rotator {
   width: 100%;
   padding-bottom: 100%;
@@ -26,7 +26,7 @@ html {
   background-color: white;
 }
 
-/* line 18, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+/* line 18, H:/portable/azicontrol/assets/scss/m-imageRotator.scss */
 .rotator__background, .rotator__current, .rotator__target {
   position: absolute;
   left: 0;
@@ -35,7 +35,7 @@ html {
   height: 100%;
 }
 
-/* line 28, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+/* line 28, H:/portable/azicontrol/assets/scss/m-imageRotator.scss */
 .rotator__background {
   background: transparent url(../img/azi.png) center center no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@ html {
   top: -2px;
 }
 
-/* line 36, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+/* line 36, H:/portable/azicontrol/assets/scss/m-imageRotator.scss */
 .rotator__current {
   background: transparent url(../img/compass_rose_line.png) center center no-repeat;
   background-size: cover;
@@ -54,7 +54,7 @@ html {
   transition: all 1s linear;
 }
 
-/* line 44, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+/* line 44, H:/portable/azicontrol/assets/scss/m-imageRotator.scss */
 .rotator__target {
   background: transparent url(../img/compass_rose_line_green.png) center center no-repeat;
   background-size: cover;
@@ -63,7 +63,7 @@ html {
           transform: rotate(0deg);
 }
 
-/* line 51, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+/* line 51, H:/portable/azicontrol/assets/scss/m-imageRotator.scss */
 .rotator__currentDeg, .rotator__targetDeg {
   position: absolute;
   width: 120px;
@@ -77,13 +77,13 @@ html {
   margin-left: -60px;
 }
 
-/* line 65, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+/* line 65, H:/portable/azicontrol/assets/scss/m-imageRotator.scss */
 .rotator__currentDeg {
   font-size: 40px;
   line-height: 60px;
 }
 
-/* line 70, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+/* line 70, H:/portable/azicontrol/assets/scss/m-imageRotator.scss */
 .rotator__targetDeg {
   background-color: #7d1212;
   margin-top: 0;
@@ -92,20 +92,20 @@ html {
   height: 90px;
 }
 
-/* line 76, F:/portable/imageRotator/assets/scss/m-imageRotator.scss */
+/* line 76, H:/portable/azicontrol/assets/scss/m-imageRotator.scss */
 .rotator__targetDeg__input {
   width: 50px;
   text-align: center;
 }
 
-/* line 24, F:/portable/imageRotator/assets/scss/main.scss */
+/* line 24, H:/portable/azicontrol/assets/scss/main.scss */
 body, html {
   background-color: lightgrey;
   margin: 0;
   padding: 0;
 }
 
-/* line 30, F:/portable/imageRotator/assets/scss/main.scss */
+/* line 30, H:/portable/azicontrol/assets/scss/main.scss */
 .pageWrapper {
   max-width: 1280px;
   padding: 40px;
